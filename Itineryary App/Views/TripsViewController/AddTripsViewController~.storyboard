@@ -46,7 +46,6 @@
                                                     </constraints>
                                                 </view>
                                             </subviews>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstItem="keD-Bm-1NM" firstAttribute="trailing" secondItem="Xnk-lW-bXM" secondAttribute="trailingMargin" id="g6h-FS-rh4"/>
                                                 <constraint firstItem="keD-Bm-1NM" firstAttribute="top" secondItem="Xnk-lW-bXM" secondAttribute="topMargin" id="onl-Gb-crD"/>
@@ -71,7 +70,7 @@
                                 <state key="normal" image="add_button_selected"/>
                                 <state key="selected" image="add_button_selected"/>
                                 <connections>
-                                    <segue destination="crn-vN-Lyp" kind="presentation" identifier="toAddTripSegue" modalPresentationStyle="currentContext" modalTransitionStyle="crossDissolve" id="ioj-rg-06e"/>
+                                    <segue destination="XWa-E2-nHT" kind="presentation" modalPresentationStyle="currentContext" modalTransitionStyle="crossDissolve" id="ioj-rg-06e"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -95,11 +94,18 @@
             </objects>
             <point key="canvasLocation" x="85.599999999999994" y="161.46926536731635"/>
         </scene>
-        <!--AddTripsViewController-->
-        <scene sceneID="W5d-8g-uJr">
+        <!--View Controller-->
+        <scene sceneID="ypg-W9-XKB">
             <objects>
-                <viewControllerPlaceholder storyboardName="AddTripsViewController" id="crn-vN-Lyp" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jE2-ab-4zX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="XWa-E2-nHT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pqV-ly-DYp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="63M-I1-I5k"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1hL-wQ-CjS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="776" y="159"/>
         </scene>

@@ -11,7 +11,7 @@ import Foundation
 class TripFunctions {
    // CRUD
    static func createTrip(tripModel: TripModel) {
-      
+      Data.tripModels.append(tripModel)
    }
    
    static func readTrips(completion: @escaping () -> ()) {

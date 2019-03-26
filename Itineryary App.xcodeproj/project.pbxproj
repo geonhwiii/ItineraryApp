@@ -152,8 +152,8 @@
 		BB43D30F224A17470093158D /* AddTripsViewController */ = {
 			isa = PBXGroup;
 			children = (
-				BB43D310224A175F0093158D /* AddTripsViewController.swift */,
 				BB43D30D224A172B0093158D /* AddTripsViewController.storyboard */,
+				BB43D310224A175F0093158D /* AddTripsViewController.swift */,
 			);
 			path = AddTripsViewController;
 			sourceTree = "<group>";

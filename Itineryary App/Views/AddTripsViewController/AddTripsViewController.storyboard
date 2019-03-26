@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="XWa-E2-nHT">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Add Trips View Controller-->
+        <scene sceneID="ypg-W9-XKB">
+            <objects>
+                <viewController id="XWa-E2-nHT" customClass="AddTripsViewController" customModule="Itineryary_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pqV-ly-DYp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jsB-O5-AH6" customClass="PopupView" customModule="Itineryary_App" customModuleProvider="target">
+                                <rect key="frame" x="16" y="20" width="343" height="160"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rdZ-hH-2xE" customClass="AppUIButton" customModule="Itineryary_App" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="108" width="100" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="Igc-gh-ixN"/>
+                                            <constraint firstAttribute="height" constant="44" id="qRf-7k-EFQ"/>
+                                        </constraints>
+                                        <state key="normal" title="Cancel"/>
+                                        <connections>
+                                            <action selector="cancel:" destination="XWa-E2-nHT" eventType="touchUpInside" id="Chg-UX-inV"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Trip" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8K0-Sl-Y0f">
+                                        <rect key="frame" x="8" y="8" width="327" height="36"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="36" id="cXH-Ii-kuG"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YW1-iQ-9aa" customClass="AppUIButton" customModule="Itineryary_App" customModuleProvider="target">
+                                        <rect key="frame" x="235" y="108" width="100" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="aJl-7i-2c2"/>
+                                            <constraint firstAttribute="height" constant="44" id="cB7-To-HCT"/>
+                                        </constraints>
+                                        <state key="normal" title="Save"/>
+                                        <connections>
+                                            <action selector="save:" destination="XWa-E2-nHT" eventType="touchUpInside" id="5Dl-JK-Arp"/>
+                                        </connections>
+                                    </button>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Trip name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IrM-qz-hAj">
+                                        <rect key="frame" x="8" y="52" width="327" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="YW1-iQ-9aa" secondAttribute="bottom" constant="8" id="0P3-sK-L33"/>
+                                    <constraint firstAttribute="height" constant="160" id="3o7-rD-iY5"/>
+                                    <constraint firstItem="rdZ-hH-2xE" firstAttribute="leading" secondItem="jsB-O5-AH6" secondAttribute="leading" constant="8" id="JF2-gx-o2y"/>
+                                    <constraint firstItem="IrM-qz-hAj" firstAttribute="top" secondItem="8K0-Sl-Y0f" secondAttribute="bottom" constant="8" id="LL0-Kh-1nc"/>
+                                    <constraint firstItem="IrM-qz-hAj" firstAttribute="leading" secondItem="jsB-O5-AH6" secondAttribute="leading" constant="8" id="MbQ-Ip-t7L"/>
+                                    <constraint firstAttribute="bottom" secondItem="rdZ-hH-2xE" secondAttribute="bottom" constant="8" id="NH6-OX-cbi"/>
+                                    <constraint firstAttribute="trailing" secondItem="8K0-Sl-Y0f" secondAttribute="trailing" constant="8" id="fv7-oj-yOJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="YW1-iQ-9aa" secondAttribute="trailing" constant="8" id="jP1-Pg-4fs"/>
+                                    <constraint firstItem="IrM-qz-hAj" firstAttribute="trailing" secondItem="8K0-Sl-Y0f" secondAttribute="trailing" id="jTS-UJ-jmJ"/>
+                                    <constraint firstItem="8K0-Sl-Y0f" firstAttribute="top" secondItem="jsB-O5-AH6" secondAttribute="top" constant="8" id="l3F-L6-bl0"/>
+                                    <constraint firstItem="8K0-Sl-Y0f" firstAttribute="leading" secondItem="jsB-O5-AH6" secondAttribute="leading" constant="8" id="zR1-wU-1Y5"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jsB-O5-AH6" firstAttribute="top" secondItem="63M-I1-I5k" secondAttribute="top" id="0NL-a9-Q1m"/>
+                            <constraint firstItem="jsB-O5-AH6" firstAttribute="leading" secondItem="63M-I1-I5k" secondAttribute="leading" constant="16" id="2t2-Zs-nFk"/>
+                            <constraint firstItem="63M-I1-I5k" firstAttribute="trailing" secondItem="jsB-O5-AH6" secondAttribute="trailing" constant="16" id="x6H-0Y-IGb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="63M-I1-I5k"/>
+                    </view>
+                    <connections>
+                        <outlet property="cancelButton" destination="rdZ-hH-2xE" id="Dk7-Rp-co7"/>
+                        <outlet property="saveButton" destination="YW1-iQ-9aa" id="PUq-eI-JkJ"/>
+                        <outlet property="titleLabel" destination="8K0-Sl-Y0f" id="E99-x8-eCv"/>
+                        <outlet property="tripTextField" destination="IrM-qz-hAj" id="7Hc-XZ-kLP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1hL-wQ-CjS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="775.20000000000005" y="158.77061469265368"/>
+        </scene>
+    </scenes>
+</document>

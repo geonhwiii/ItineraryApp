@@ -13,6 +13,18 @@
 		BB43D2F22249D5480093158D /* TripModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB43D2F12249D5480093158D /* TripModel.swift */; };
 		BB43D2F42249D5520093158D /* TripFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB43D2F32249D5520093158D /* TripFunctions.swift */; };
 		BB43D2F62249D7070093158D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB43D2F52249D7070093158D /* Data.swift */; };
+		BB43D2FA2249D9730093158D /* TripsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB43D2F92249D9730093158D /* TripsViewController.swift */; };
+		BB43D2FC2249D97F0093158D /* TripsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB43D2FB2249D97F0093158D /* TripsViewController.storyboard */; };
+		BB43D2FE2249E6B50093158D /* TripsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB43D2FD2249E6B50093158D /* TripsTableViewCell.swift */; };
+		BB43D3012249EA300093158D /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB43D3002249EA300093158D /* UIViewExtensions.swift */; };
+		BB43D304224A024D0093158D /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB43D303224A024D0093158D /* Theme.swift */; };
+		BB43D308224A04BE0093158D /* AmaticSC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB43D307224A04BE0093158D /* AmaticSC-Regular.ttf */; };
+		BB43D30A224A09D70093158D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB43D309224A09D70093158D /* Colors.xcassets */; };
+		BB43D30C224A13F10093158D /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB43D30B224A13F10093158D /* UIButtonExtension.swift */; };
+		BB43D30E224A172B0093158D /* AddTripsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB43D30D224A172B0093158D /* AddTripsViewController.storyboard */; };
+		BB43D311224A175F0093158D /* AddTripsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB43D310224A175F0093158D /* AddTripsViewController.swift */; };
+		BB43D314224A1A9D0093158D /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB43D313224A1A9D0093158D /* PopupView.swift */; };
+		BB43D316224A1E5D0093158D /* AppUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB43D315224A1E5D0093158D /* AppUIButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		BB43D2F12249D5480093158D /* TripModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripModel.swift; sourceTree = "<group>"; };
 		BB43D2F32249D5520093158D /* TripFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripFunctions.swift; sourceTree = "<group>"; };
 		BB43D2F52249D7070093158D /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		BB43D2F92249D9730093158D /* TripsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsViewController.swift; sourceTree = "<group>"; };
+		BB43D2FB2249D97F0093158D /* TripsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TripsViewController.storyboard; sourceTree = "<group>"; };
+		BB43D2FD2249E6B50093158D /* TripsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsTableViewCell.swift; sourceTree = "<group>"; };
+		BB43D3002249EA300093158D /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		BB43D303224A024D0093158D /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		BB43D307224A04BE0093158D /* AmaticSC-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AmaticSC-Regular.ttf"; sourceTree = "<group>"; };
+		BB43D309224A09D70093158D /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		BB43D30B224A13F10093158D /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		BB43D30D224A172B0093158D /* AddTripsViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddTripsViewController.storyboard; sourceTree = "<group>"; };
+		BB43D310224A175F0093158D /* AddTripsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripsViewController.swift; sourceTree = "<group>"; };
+		BB43D313224A1A9D0093158D /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		BB43D315224A1E5D0093158D /* AppUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUIButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +80,9 @@
 		BB43D2DC2249D2020093158D /* Itineryary App */ = {
 			isa = PBXGroup;
 			children = (
+				BB43D302224A023D0093158D /* Resources */,
 				BB43D2EF2249D5300093158D /* Model */,
+				BB43D2F72249D95B0093158D /* Views */,
 				BB43D2DD2249D2020093158D /* AppDelegate.swift */,
 				BB43D2E42249D2030093158D /* Assets.xcassets */,
 				BB43D2E62249D2030093158D /* LaunchScreen.storyboard */,
@@ -81,6 +107,64 @@
 				BB43D2F32249D5520093158D /* TripFunctions.swift */,
 			);
 			path = Trip;
+			sourceTree = "<group>";
+		};
+		BB43D2F72249D95B0093158D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB43D30F224A17470093158D /* AddTripsViewController */,
+				BB43D2F82249D9630093158D /* TripsViewController */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB43D2F82249D9630093158D /* TripsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB43D2FB2249D97F0093158D /* TripsViewController.storyboard */,
+				BB43D2F92249D9730093158D /* TripsViewController.swift */,
+				BB43D2FD2249E6B50093158D /* TripsTableViewCell.swift */,
+			);
+			path = TripsViewController;
+			sourceTree = "<group>";
+		};
+		BB43D2FF2249EA1B0093158D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BB43D3002249EA300093158D /* UIViewExtensions.swift */,
+				BB43D30B224A13F10093158D /* UIButtonExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BB43D302224A023D0093158D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BB43D2FF2249EA1B0093158D /* Extensions */,
+				BB43D312224A1A840093158D /* CustomControls */,
+				BB43D303224A024D0093158D /* Theme.swift */,
+				BB43D307224A04BE0093158D /* AmaticSC-Regular.ttf */,
+				BB43D309224A09D70093158D /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BB43D30F224A17470093158D /* AddTripsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB43D310224A175F0093158D /* AddTripsViewController.swift */,
+				BB43D30D224A172B0093158D /* AddTripsViewController.storyboard */,
+			);
+			path = AddTripsViewController;
+			sourceTree = "<group>";
+		};
+		BB43D312224A1A840093158D /* CustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				BB43D313224A1A9D0093158D /* PopupView.swift */,
+				BB43D315224A1E5D0093158D /* AppUIButton.swift */,
+			);
+			path = CustomControls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +225,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB43D30A224A09D70093158D /* Colors.xcassets in Resources */,
+				BB43D308224A04BE0093158D /* AmaticSC-Regular.ttf in Resources */,
+				BB43D30E224A172B0093158D /* AddTripsViewController.storyboard in Resources */,
 				BB43D2E82249D2030093158D /* LaunchScreen.storyboard in Resources */,
+				BB43D2FC2249D97F0093158D /* TripsViewController.storyboard in Resources */,
 				BB43D2E52249D2030093158D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,10 +241,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB43D314224A1A9D0093158D /* PopupView.swift in Sources */,
+				BB43D2FE2249E6B50093158D /* TripsTableViewCell.swift in Sources */,
+				BB43D304224A024D0093158D /* Theme.swift in Sources */,
+				BB43D3012249EA300093158D /* UIViewExtensions.swift in Sources */,
 				BB43D2F22249D5480093158D /* TripModel.swift in Sources */,
 				BB43D2DE2249D2020093158D /* AppDelegate.swift in Sources */,
+				BB43D311224A175F0093158D /* AddTripsViewController.swift in Sources */,
+				BB43D316224A1E5D0093158D /* AppUIButton.swift in Sources */,
+				BB43D30C224A13F10093158D /* UIButtonExtension.swift in Sources */,
 				BB43D2F42249D5520093158D /* TripFunctions.swift in Sources */,
 				BB43D2F62249D7070093158D /* Data.swift in Sources */,
+				BB43D2FA2249D9730093158D /* TripsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,8 +390,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8M6N9923S8;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Itineryary App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,6 +399,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gunw.Itineryary-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -312,8 +409,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8M6N9923S8;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Itineryary App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -321,6 +418,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gunw.Itineryary-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
